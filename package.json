@@ -1,0 +1,33 @@
+{
+  "name": "graphql-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migohe14/graphql-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migohe14/graphql-project/issues"
+  },
+  "homepage": "https://github.com/migohe14/graphql-project#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.0.7",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^3.1.1",
+    "mongoose": "^5.2.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
